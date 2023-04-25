@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styledentista.css">
+    <title>Nosotros</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabeza">
+            <div class="title">
+                <div class="login">
+                    <a href="login_admin.html">ADMIN</a>
+                </a>
+            </div>
+            </div>
+            <div class="enlaces">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="index.html#tratamientos">Tratamientos</a>
+                <a href="nosotros.html">Dentistas</a>
+                <a href="https://www.dentaid.es/blog" target="_blank">Block</a>
+                <div class="busquedaP">
+                    <img src="img/iconos/lupa.png" alt="">
+                    <div class="busqueda">
+                        <div class="item"><a href="index.html#tratamientos">Tratamientos</a></div>
+                        <div class="item"><a href="tratamientos/diseno_sonrisa.html">Diseño de la sonrisa</a></div>
+                        <div class="item"><a href="tratamientos/blanquiamento_dental.html">Blanqueamiento dental</a>
+                        </div>
+                        <div class="item"><a href="tratamientos/impatologia.html">Implantologia dental</a> <br>
+                        </div>
+                        <div class="item"><a href="tratamientos/potesisD.html">Protesis dentales</a> </div>
+                        <div class="item"><a href="tratamientos/resinas.html">Resinas</a> </div>
+                        <div class="item"><a href="tratamientos/endodoncia.html">Endodoncia dental</a> </div>
+                        <div class="item"><a href="tratamientos/maxilofacial.html">Cirugia maxilofacial</a> </div>
+                        <div class="item"><a href="tratamientos/periodanciaD.html">Periodoncia dental</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="papa">
+        <div class="title2">
+            <h1>Dentistas de Primera</h1>
+            <p>En La Clínica Dental Colors disponemos de un equipo profesional de dentistas altamente calificados,
+                comprometidos en ofrecerte un servicio de calidad con tecnología de avanzada.</p>
+        </div>
+        <div class="perfil">
+            <div class="perfil_img">
+                <img src="img/perfiles/perfil1.jfif" alt="">
+            </div>
+            <div class="perfil_descip">
+                <h2>Dra. Amparo Vasquez</h2>
+                <p>La Dra. Amparo Vasquez es especialista en Periodoncia e Implantes Dentales, cuenta con amplia
+                    experiencia,
+                    garantizando la eficiencia en los tratamientos indicados para la salud de las encías y tratamientos
+                    de
+                    pérdida de piezas dentales, ayudando a sus pacientes a hablar y masticar con confianza.</p>
+                <div class="item">
+                    <div class="item1">
+                        <img src="img/iconos/gorro-de-graduacion.png" alt="">
+                        <p>ESPECIALIDAD EN PERIODONCIA <br>
+                            E IMPLANTOLOGÍA <br>
+                            Facultad de Odontología <br>
+                            UNAM</p>
+                    </div>
+                    <div class="item1">
+                        <img src="img/iconos/gorro-de-graduacion.png" alt="">
+                        <p> RECERTIFICACIÓN <br>
+                            Consejo Mexicano <br> de Periodoncia , A.C. </p>
+                    </div>
+                    <div class="item1">
+                        <img src="img/iconos/gorro-de-graduacion.png" alt="">
+                        <p>DIPLOMADO DE DOCENCIA <br>
+                            Facultad de Odontología UNAM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="perfil">
+            <div class="perfil_img">
+                <img src="img/perfiles/perfil2.jfif" alt="">
+            </div>
+            <div class="perfil_descip">
+                <h2>Dra. Nadia Prado</h2>
+                <p>Especialista en Cirugía Maxilofacial y Cirujana Dentista egresada de la Universidad Nacional Autónoma
+                    de México (UNAM). La Dra.Pamela ha demostrado su entrega, pasión y compromiso por su especialidad.
+                    Desde 2015 comparte sus conocimientos en la Universidad Latinoamericana, impartiendo materias como
+                    Exodoncia y Cirugía Bucal.</p>
+                <div class="item">
+                    <div class="item1">
+                        <img src="img/iconos/gorro-de-graduacion.png" alt="">
+                        <p>ESPECIALIDAD EN PERIODONCIA <br>
+                            E IMPLANTOLOGÍA <br>
+                            Facultad de Odontología <br>
+                            UNAM</p>
+                    </div>
+                    <div class="item1">
+                        <img src="img/iconos/gorro-de-graduacion.png" alt="">
+                        <p>CIRUJANO DENTISTA <br>
+                            Facultad de Odontología, Universidad Autónoma de Sinaloa</p>
+                    </div>
+                    <div class="item1">
+                        <img src="img/iconos/gorro-de-graduacion.png" alt="">
+                        <p>DIPLOMADO DE DOCENCIA <br>
+                            Facultad de Odontología UNAM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contacto" id="contacto">
+        <div class="formulario">
+            <h2>Contactanos nosotros te escribiremos</h2>
+            <form action="PHP/inserta.php" name="contacto" method="post" netlify>
+                <label>
+                    Nombre completo:
+                    <input type="text" name="nombre">
+                </label>
+                <label>
+                    E-mail:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    numero
+                    <input type="text" name="numero">
+                </label>
+                <label>
+                    Consulta:
+                    <input type="text" name="comentarios"></input>
+                </label>
+                <input type="submit" value="Enviar" name="enviar">
+            </form>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="img">
+                <img src="img/colors.png" alt="">
+            </div>
+            <div class="term">
+                <p> COLORS 2022-2023 <br> TODOS LOS DERECHOS RESERVADOS COLORS </p>
+                <a href="terminos.html">Terminos y condiciones</a> <br>
+                <a href="index.html#contacto">Contacto</a> <br>
+                <a href="nosotros.html#mapa">Quienes somos?</a> <br>
+            </div>
+            <div class="redes">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="../img/iconos/logotipo-circular-de-facebook.png" alt="https://www.facebook.com/">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="img/iconos/instagram.png" alt="https://www.instagram.com/">
+                </a>
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <img src="img/iconos/whatsapp.png" alt="https://web.whatsapp.com/">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style/stylelogin.css">
+</head>
+
+<body>
+    <div class="padre">
+        <div class="box">
+            <h1>Administrar</h1>
+            <div class="formulario">
+                <form action="PHP/validar.php" method="post">
+                    <p>Usuario <input type="text" placeholder="ingresa tu usuario " name="usuario" required> </p>
+                    <p>Contraseña<input type="password" placeholder="ingrese su contraseña " name="contrasena" required>
+                    </p>
+                    <input type="submit" value="ingresar" >
+                    <input class="botones" type="button" value="regresar" onclick="history.back()">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
